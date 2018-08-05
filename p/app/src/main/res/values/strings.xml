@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="places_tab">Places</string>
+    <string name="food_tab">Food</string>
+    <string name="general_tab">General</string>
+    <string name="hostel_tab">Hostels</string>
+    <string name="about_amsterdam">Amsterdam, capital of the Netherlands! These days the city has a population of just over 790.000 inhabitants and is the largest city in the country. Amsterdam is located in the province ‘Noord-Holland’, situated in the west. It is one of the most popular destinations in Europe, receiving more than 4.5 million tourists annually.</string>
+    <string name="about_barcelona">Catalonia and Barcelona has become one of the first tourist destination of Spain, it has everything to please the majority of visitors : with a history among the oldest in Europe, a capital, Barcelona, which never sleeps and an inland full of charm not to forget beautiful beaches in La Costa Brava. The variety of artistic treasures, the Romanesque churches and the great names in modern art and architecture , Dali, Gaudi, Miro, Picasso \nBarcelona  The city of Marvels
+        .Barcelona sited between the sea and the mountains, has found a formidable balance: a foot in the traditional things and the other in the avant-garde. Barcelona has the reputation of being the most cosmopolitan, modern and avant-garde city in Spain and it has renewed for the 1992 Olympic Games.</string>
+    <string name="about_paris">Many of the famous boulevards and city centre buildings where transformed by Haussmann and Napolean III (Charles Louis Napoléon Bonaparte). The streets where made much wider, places and squares where built and the buildings completely rebuilt. The atmosphere was totally transformed, space and perspective being main ingredient such as you can see on the Avenue des Champs-Élysées, whilst preserving historical buildings such as Notre Dame. This also influenced other French cities to change.
+        \nThe night life is rich with the famous cabarets such as the Moulin Rouge, Lido and the Crazy Horse. Gastronomic restaurants offering cuisine of the finest are numerous and at all prices.</string>
+    <string name="explore">Explore</string>
+    <string name="map">Open In Map</string>
+    <string name="check_connection">Please make sure you have a working internet connection</string>
+    <string name="amsterdam">Amsterdam</string>
+    <string name="paris">Paris</string>
+    <string name="barcelona">Barcelona</string>
+    <string name="amsterdam_coordinates">geo:52.370007, 4.893177?z=16</string>
+    <string name="barcelona_coordinates">geo:41.3851, 2.1734?z=16</string>
+    <string name="paris_coordinates">geo:48.857231, 2.353238?z=16</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000080</color>
+    <color name="colorPrimaryDark">#191970</color>
+    <color name="colorAccent">#E9E8B7</color>
+    <color name="color_maroon">#660000</color>
+    <color name="mustard_yellow">#ffe680</color>
+    <color name="tab1">#ffaa80</color>
+    <color name="tab_dark">#ff9966</color>
+    <color name="red">#ff4d4d</color>
+    <color name="dark_red">#330000</color>
+    <color name="dark_orange">#ff884d</color>
+    <color name="end_bg">#ffffe6</color>
+</resources>

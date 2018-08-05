@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.tourguide.ui.LocationDescriptionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mustard_yellow"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_location_selected_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_maroon"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/large_text"
+            android:textStyle="bold"
+            tools:text="AMSTERDAM" />
+
+        <ImageView
+            android:id="@+id/location_selected_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/img_height"
+            android:src="@drawable/amsterdam" />
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp10"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.0px"
+            card_view:cardBackgroundColor="@color/colorAccent"
+            card_view:cardCornerRadius="@dimen/dp10"
+            card_view:cardElevation="@dimen/dp10"
+            card_view:cardPreventCornerOverlap="false"
+            card_view:contentPadding="@dimen/dp10">
+
+            <TextView
+                android:id="@+id/tv_location_selected_description"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="cursive"
+                android:textAlignment="center"
+                android:textColor="@color/color_maroon"
+                android:textSize="@dimen/normal_text"
+                tools:text="BLA BLA BLA" />
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_show_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@drawable/button_round"
+                android:padding="@dimen/dp10"
+                android:text="@string/map" />
+
+            <Button
+                android:id="@+id/btn_explore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_round"
+                android:padding="@dimen/dp10"
+                android:text="@string/explore" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
