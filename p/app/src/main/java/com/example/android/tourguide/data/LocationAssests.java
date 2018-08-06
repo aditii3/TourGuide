@@ -73,7 +73,7 @@ public final class LocationAssests {
     public static List<String> getBarcelonaGeneralDescription(final Context c) {
         return new ArrayList<String>() {{
             add(c.getString(R.string.bgd1));
-            add("Middle age and the older generation generally tend to wear clothing with muted and conservative colours. The younger generation tend to wear semi-casual clothes like jeans and a T shirts and comfortable shoes or sandals during summer.\nThe Catalans care about their personal appearance and image. They wear a wide variety of types of clothes however generally they do not wear overly casual clothes. The Catalans like to look good in a conservative way. They are keen on designer clothes but even more important to them is quality and fitting. It is not hard to find Catalan clothes of good quality at a reasonable price, which is also good news for visitors.\n" + "\n" + c.getString(R.string.bgd2));
+            add(c.getString(R.string.bgd2));
             add(c.getString(R.string.bgd3));
 
         }};
