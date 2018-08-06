@@ -42,16 +42,16 @@ public class GeneralFragment extends Fragment implements LocationAdapter.Locatio
         int s = TourGuideActivity.LOCATION_ID;
         switch (s) {
             case 0:
-                selected = LocationAssests.getAmsterdamGeneral();
-                description = LocationAssests.getAmsterdamGeneralDescription();
+                selected = LocationAssests.getAmsterdamGeneral(getContext());
+                description = LocationAssests.getAmsterdamGeneralDescription(getContext());
                 break;
             case 1:
-                selected = LocationAssests.getBarcelonaGeneral();
-                description = LocationAssests.getBarcelonaGeneralDescription();
+                selected = LocationAssests.getBarcelonaGeneral(getContext());
+                description = LocationAssests.getBarcelonaGeneralDescription(getContext());
                 break;
             case 2:
-                selected = LocationAssests.getParisGeneral();
-                description = LocationAssests.getParisGeneralDescription();
+                selected = LocationAssests.getParisGeneral(getContext());
+                description = LocationAssests.getParisGeneralDescription(getContext());
                 break;
 
         }

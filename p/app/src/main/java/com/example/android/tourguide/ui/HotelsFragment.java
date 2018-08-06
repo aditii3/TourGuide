@@ -43,16 +43,16 @@ public class HotelsFragment extends Fragment implements LocationAdapter.Location
         int s = TourGuideActivity.LOCATION_ID;
         switch (s) {
             case 0:
-                selected = LocationAssests.getAmsterdamHostelList();
-                description = LocationAssests.getAmsterdamHostelsDescription();
+                selected = LocationAssests.getAmsterdamHostelList(getContext());
+                description = LocationAssests.getAmsterdamHostelsDescription(getContext());
                 break;
             case 1:
-                selected = LocationAssests.getBarcelonaHostelList();
-                description = LocationAssests.getBarcelonaHostelDescription();
+                selected = LocationAssests.getBarcelonaHostelList(getContext());
+                description = LocationAssests.getBarcelonaHostelDescription(getContext());
                 break;
             case 2:
-                selected = LocationAssests.getParisHostelList();
-                description = LocationAssests.getParisHostelDescription();
+                selected = LocationAssests.getParisHostelList(getContext());
+                description = LocationAssests.getParisHostelDescription(getContext());
                 break;
         }
         adapter = new LocationAdapter(getActivity(), selected.size(), this, selected);

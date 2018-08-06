@@ -42,16 +42,16 @@ public class AttractionsFragment extends Fragment implements LocationAdapter.Loc
         int s = TourGuideActivity.LOCATION_ID;
         switch (s) {
             case 0:
-                selected = LocationAssests.getAmsterdamPlacesList();
-                description = LocationAssests.getAmsterdamPlacesDescription();
+                selected = LocationAssests.getAmsterdamPlacesList(getContext());
+                description = LocationAssests.getAmsterdamPlacesDescription(getContext());
                 break;
             case 1:
-                selected = LocationAssests.getBarcelonaPlacesList();
-                description = LocationAssests.getBarcelonaPlacesDescription();
+                selected = LocationAssests.getBarcelonaPlacesList(getContext());
+                description = LocationAssests.getBarcelonaPlacesDescription(getContext());
                 break;
             case 2:
-                selected = LocationAssests.getParisPlacesList();
-                description = LocationAssests.getParisPlacesDescription();
+                selected = LocationAssests.getParisPlacesList(getContext());
+                description = LocationAssests.getParisPlacesDescription(getContext());
                 break;
         }
         adapter = new LocationAdapter(getActivity(), selected.size(), this, selected);

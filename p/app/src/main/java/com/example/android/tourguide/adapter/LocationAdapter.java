@@ -3,7 +3,6 @@ package com.example.android.tourguide.adapter;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,7 +35,6 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.Locati
     @NonNull
     @Override
     public LocationViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        Log.v("LocationAdapter", "Crreating");
         Context c = parent.getContext();
         View v = LayoutInflater.from(c).inflate(R.layout.location_item, parent, false);
         LocationViewHolder holder = new LocationViewHolder(v);

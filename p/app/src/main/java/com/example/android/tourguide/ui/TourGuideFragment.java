@@ -49,7 +49,7 @@ public class TourGuideFragment extends Fragment implements LocationAdapter.Locat
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         locationList.setLayoutManager(layoutManager);
         locationList.setHasFixedSize(true);
-        List<Location> l = LocationAssests.getLocation();
+        List<Location> l = LocationAssests.getLocation(getContext());
         adapter = new LocationAdapter(getContext(), l.size(), this, l);
         locationList.setAdapter(adapter);
         return rootView;

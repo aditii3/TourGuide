@@ -43,16 +43,16 @@ public class FoodFragment extends Fragment implements LocationAdapter.LocationIt
         int s = TourGuideActivity.LOCATION_ID;
         switch (s) {
             case 0:
-                selected = LocationAssests.getAmsterdamHotelList();
-                description = LocationAssests.getAmsterdamFoodDescription();
+                selected = LocationAssests.getAmsterdamHotelList(getContext());
+                description = LocationAssests.getAmsterdamFoodDescription(getContext());
                 break;
             case 1:
-                selected = LocationAssests.getBarcelonaHotelList();
-                description = LocationAssests.getBarcelonaFoodDescription();
+                selected = LocationAssests.getBarcelonaHotelList(getContext());
+                description = LocationAssests.getBarcelonaFoodDescription(getContext());
                 break;
             case 2:
-                selected = LocationAssests.getParisHotelList();
-                description = LocationAssests.getParisFoodDescription();
+                selected = LocationAssests.getParisHotelList(getContext());
+                description = LocationAssests.getParisFoodDescription(getContext());
                 break;
 
         }

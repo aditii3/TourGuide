@@ -36,6 +36,7 @@
             android:name=".ui.EndingActivity"
             android:launchMode="singleTop"
             android:theme="@style/MyAppTheme" />
+        <activity android:name=".data.LocationAssests" />
     </application>
 
 </manifest>
